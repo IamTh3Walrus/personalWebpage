@@ -1,16 +1,17 @@
-#mainPageImage {
-    width: 100%;
-    height: 100%;
-}
-
 body {
     background-color: #c0c0c0;
 }
 
 #navBar {
-    position: relative;
     bottom: 0;
-    color: #fff;
+    color: #d4af37;
     text-align: center;
+    line-height: 4em;
 }
 
+#mainPageImage {
+    margin-top: 150px;
+}
+#profilePanel{
+  margin-top: 150px;
+}

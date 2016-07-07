@@ -1,5 +1,5 @@
 body {
-    background-color: #c0c0c0;
+    background-color: #fff;
 }
 
 #navBar {
@@ -12,6 +12,31 @@ body {
 #mainPageImage {
     margin-top: 150px;
 }
-#profilePanel{
-  margin-top: 150px;
+
+#profilePanel {
+    margin-top: 150px;
+}
+
+#landingPageImage {
+    width: 50%;
+    height: 100%;
+    margin-top: 100px;
+}
+
+#nameFont {
+    font-family: 'Pacifico', cursive;
+    margin-top: 200px;
+    margin-left: 200px;
+}
+
+#occupationFont {
+    font-family: 'Roboto', sans-serif;
+    margin-top: 50px;
+    margin-left: 125px;
+}
+#landingButton{
+  background-color: #000 !important;
+  color:#fff;
+  margin-top: 50px;
+  margin-left: 250px;
 }

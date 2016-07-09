@@ -34,11 +34,55 @@ body {
     margin-top: 50px;
     margin-left: 125px;
 }
-#landingButton{
-  background-color: #000 !important;
-  color:#fff;
-  margin-top: 50px;
-  margin-left: 250px;
+
+#landingButton {
+    background-color: #000 !important;
+    color: #fff;
+    margin-top: 50px;
+    margin-left: 220px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
+.typed-cursor {
+    opacity: 0;
+    -webkit-animation: blink 0s infinite;
+    -moz-animation: blink 0s infinite;
+    animation: blink 0s infinite;
+}
 
+@keyframes blink {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+@-webkit-keyframes blink {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+@-moz-keyframes blink {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 0;
+    }
+}

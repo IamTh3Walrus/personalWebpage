@@ -82,6 +82,11 @@ body {
     padding-right: 50px;
 }
 
+#myCarousel{
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
 .typed-cursor {
     opacity: 0;
     -webkit-animation: blink 0s infinite;

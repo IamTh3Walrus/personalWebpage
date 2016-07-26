@@ -11,5 +11,5 @@
      $("#landingButton").toggle(1200);
      $("#landingPageImage").hide();
      $("#landingPageImage").toggle(1500);
+});
 
- });

@@ -1,13 +1,51 @@
+html{
+    height: 100%;
+    margin:0;
+    padding:0;
+}
 body {
     background-color: #fff;
+    height: 100%;
+    margin:0;
+    padding:0;
 }
 
-#navBar {
-    bottom: 0;
+#wrapper{
+    min-height: 100%;
+    position:relative;
+}
+
+#footer {
+    bottom:0;
+    left:0;
+    background-color: #000;
+    height: 80px;
+    position: absolute;
+    width: 100%;
+    color: #d4af37;
+    text-align: center;
+    line-height: 4em;
+
+
+}
+
+#linkedinIcon{
+    width: 50px;
+    height: 50px;
+    margin-left: 50px;
+}
+
+#githubIcon{
+    width: 50px;
+    height: 50px;
+}
+
+#footerText{
     color: #d4af37;
     text-align: center;
     line-height: 4em;
 }
+
 
 #mainPageImage {
     margin-top: 150px;

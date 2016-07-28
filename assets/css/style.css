@@ -1,23 +1,24 @@
-html{
+html {
     height: 100%;
-    margin:0;
-    padding:0;
+    margin: 0;
+    padding: 0;
 }
+
 body {
     background-color: #fff;
     height: 100%;
-    margin:0;
-    padding:0;
+    margin: 0;
+    padding: 0;
 }
 
-#wrapper{
+#wrapper {
     min-height: 100%;
-    position:relative;
+    position: relative;
 }
 
 #footer {
-    bottom:0;
-    left:0;
+    bottom: 0;
+    left: 0;
     background-color: #000;
     height: 80px;
     position: absolute;
@@ -25,30 +26,31 @@ body {
     color: #d4af37;
     text-align: center;
     line-height: 4em;
-
-
 }
 
-#linkedinIcon{
+#linkedinIcon {
     width: 50px;
     height: 50px;
     margin-left: 50px;
 }
 
-#githubIcon{
+#githubIcon {
     width: 50px;
     height: 50px;
 }
 
-#footerText{
+#footerText {
     color: #d4af37;
     text-align: center;
     line-height: 4em;
 }
 
-
 #mainPageImage {
     margin-top: 150px;
+}
+
+#mainPageImage2 {
+    margin-bottom: 100px;
 }
 
 #profilePanel {
@@ -82,7 +84,7 @@ body {
     padding-right: 50px;
 }
 
-#myCarousel{
+#myCarousel {
     margin-top: 50px;
     margin-bottom: 100px;
 }
@@ -129,4 +131,3 @@ body {
         opacity: 0;
     }
 }
-

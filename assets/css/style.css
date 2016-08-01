@@ -45,6 +45,10 @@ body {
     line-height: 4em;
 }
 
+#carouselCaption {
+    color: #d4af37;
+}
+
 #mainPageImage {
     margin-top: 150px;
 }

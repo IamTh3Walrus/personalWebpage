@@ -46,7 +46,9 @@ body {
 }
 
 #carouselCaption {
-    color: #d4af37;
+    color: #ff0000;
+    text-shadow: 1px 1px #fff;
+    font-size: 40px;
 }
 
 #mainPageImage {

@@ -28,6 +28,10 @@ body {
     line-height: 4em;
 }
 
+.mainRow {
+    margin-top: 50px;
+}
+
 #linkedinIcon {
     width: 50px;
     height: 50px;
@@ -46,8 +50,8 @@ body {
 }
 
 #carouselCaption {
-    color: #ff0000;
-    text-shadow: 1px 1px #fff;
+    color: #fff;
+    text-shadow: 2px 2px #000;
     font-size: 40px;
 }
 
@@ -60,7 +64,7 @@ body {
 }
 
 #profilePanel {
-    margin-top: 150px;
+    margin-top: 10px;
 }
 
 #landingPageImage {
@@ -81,6 +85,20 @@ body {
     margin-left: 125px;
 }
 
+#contactMe {
+    margin-top: 50px;
+    font-family: 'Share Tech Mono', monospace;
+}
+
+#portfolioFont {
+    margin-top: 50px;
+    font-family: 'Share Tech Mono', monospace;
+}
+
+#aboutMe {
+    font-family: 'Share Tech Mono', monospace;
+}
+
 #landingButton {
     background-color: #000 !important;
     color: #fff;
@@ -92,7 +110,13 @@ body {
 
 #myCarousel {
     margin-top: 50px;
-    margin-bottom: 100px;
+    margin-bottom: 200px;
+}
+
+#contactForm {
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
 .typed-cursor {

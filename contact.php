@@ -32,7 +32,7 @@ if($_POST) {
     if(isEmail($clientEmail) && $subject != '' && $message != '' && $antispam == '12') {
         // Send email
         $headers = "From: " . $clientEmail . " <" . $clientEmail . ">" . "\r\n" . "Reply-To: " . $clientEmail;
-        mail($emailTo, $subject . " (bootstrap contact form tutorial)", $message, $headers);
+        mail($emailTo, $subject . "Message to Stephen Doe", $message, $headers);
     }
  
     echo json_encode($array);
